@@ -27,6 +27,13 @@ module.exports = {
         'LabeledStatement',
         'WithStatement',
       ],
+      "class-methods-use-this": ["error", {
+        "exceptMethods": [
+          "validateString",
+          "validateNumber",
+          "validateStudentsArray"
+        ]
+      }]
     },
     overrides:[
       {
